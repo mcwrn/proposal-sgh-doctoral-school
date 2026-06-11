@@ -1,0 +1,54 @@
+* Propozycja tematu rozprawy doktorskiej
+
+** DONE Wstępny tytuł rozprawy doktorskiej (do 300 znaków) ➡️ Problem badawczy
+
+Dynamiczne modele ekonomii matematycznej w analizie zmiany technologicznej i strukturalnej na rynku wytwórców energii elektrycznej. 
+
+** DONE Wprowadzenie (określenie obszaru badawczego, powody wyboru problemu badawczego i jego znaczenie dla rozwoju danej dziedziny nauki)
+
+_Obszar badawczy_: Zastosowanie optymalizacji dynamicznej i gier różniczkowych w modelowaniu zmiany technologicznej na rynku wytwórców energii elektrycznej.
+
+_Powody wyboru problemu badawczego_: Zmiana technologiczna na rynku energii elektrycznej nadchodzi czy tego chcemy czy nie. W związku z tym chcemy mieć narzędzia ekonomii matematycznej, przy pomocy których, jesteśmy w stanie analizować złożone, strategiczne zależności pomiędzy podmiotami na tym rynku. 
+
+_Znaczenie dla rozwoju ekonmii_: Znaczenie jest dwojakie. Po pierwszy rozwijamy narzędzia z zakresu ekonomii matematycznej a więc optymalizacje dynamiczną, modele gier różniczkowych i narzędzia numeryczne. Z drugiej strony atakujemy bardzo skomplikowany i bieżący problem związany z następującą zmianą technologiczną. 
+
+** DONE Krótki przegląd literatury (kluczowe pozycje na temat danego problemu badawczego ze wskazaniem luk, które kandydat zamierza wypełnić, to nie jest bibliografia)
+
+Literatura z następujących zakresów:
+- literatura związana ze zmianami technologicznymi (niekoniecznie matematyczna), np. tutaj mogą być jakieś raporty rządowe, albo organizacji pozarządowych, również raporty ekologiczne, może jakaś literatura prawna dotycząca wprowadzanych regulacji, również literatura ekonomiczna, np. dotycząca ETS, raporty z realizacji ETS i kolejnych fal tego programu, może literatura omawiająca organizację rynku energii elektrycznej, może jakaś literatura dotycząca kwestii inżynierskich, np. podział EU na regiony energetyczne, jak w tej chwili wygląda rynek wytwórców energii, literatura z zakresu monopoli naturalnych oraz regulacji (policy)
+- literatura związana ze zmianami technologicznymi (nie tylko energia elektryczna), np. tutaj mogą być jakieś specjalizowane model dotyczące energii elektrycznej, w szczególności takie, które opierają się na grach różniczkowych
+- literatura techniczna związana z sterowaniem optymalnym
+- literatura techniczna związana z grami różniczkowymi
+
+** TODO Główne pytania badawcze, które dezagregują na cząstkowe elementy stawiany przez kandydata problem badawczy
+
+‼️ Tutaj trzeba zamienić to na pytania badawcze. 
+
+- Analiza dostępnych danych dotyczących Polskiego i Europejskiego rynku generacji energii elektrycznej.
+- Przegląd istniejących w literaturze modeli z zakresu ekonomii gałęziowej (ang. industrial organization) wykorzytywanych do modelowania rynku generacji energii elektrycznej.
+- Stworzenie ogólnego modelu (gra różniczkowa) rynku generacji energii elektrycznej.
+- Specyfikacja i kalibracja modelu do gospodarki Polski.
+- Analiza scenariuszowa.
+
+** DONE Metody badawcze do rozwiązania problemu badawczego
+
+Wykorzystane zostaną typowe metody ekonomii matematycznej w tym:
+- teoria gier
+- równania różniczkowe
+- teoria sterowania optymalnego
+- gry różniczkowe
+- algorytmy numeryczne sterowania optymalnego
+
+
+** DONE Oczekiwane teoretyczne i praktyczne wyniki problemu badawczego wybranego przez kandydata
+
+_Wyniki teoretyczne_
+
+- Stworzenie ogólnego modelu zmiany technologicznej z uwzględniem strategicznych decyzji podmiotów rynkowych i struktury rynku. Twierdzenia o istnieniu optymalnego sterowania.
+- Specyfikacja ogólnego modelu, do modelu dla gospodarki Polskiej. Kalibracja modelu dla dostępnych danych. Analiza scenariuszowa.
+- Wnioski w zakresie tzw. zielonych polityk i regulacji rynku generacji energii elektrycznehj.
+
+_Wyniki praktyczne_
+
+- Analiza rynku polskiego i Unii Europejskiej w zakresie zmiany technologicznej na rynku wytwórstwa energii elektrycznej.
+- Stworzenie bibliotek numerycznych do analizy jakościowej zmian technologicznych.
