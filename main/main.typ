@@ -131,32 +131,32 @@
 
 = Fisher-Pry jako gra różniczkowa - substytucja technologiczna
 
-#cite(<fisher1971simple>, form: "full")
-#cite(<marchetti1977primary>, form: "full")
-#cite(<mercure2012ftt>, form: "full")
+- #cite(<fisher1971simple>, form: "full")
+- #cite(<marchetti1977primary>, form: "full")
+- #cite(<mercure2012ftt>, form: "full")
  
 
 = Differential Game of Resource Depletion and Energy Transition (?)
 
-#cite(<hotelling1931economics>, form: "full")
-#cite(<dasgupta1979economic>, form: "full")
-#cite(<karp2005global>, form: "full") -- gra różniczkowa
-#cite(<long2011dynamic>, form: "full") -- survey
-#cite(<benchekroun2019mergers>, form: "full")
-#cite(<benchekroun2019oligopoly>, form: "full")
+- #cite(<hotelling1931economics>, form: "full")
+- #cite(<dasgupta1979economic>, form: "full")
+- #cite(<karp2005global>, form: "full") -- gra różniczkowa
+- #cite(<long2011dynamic>, form: "full") -- survey
+- #cite(<benchekroun2019mergers>, form: "full")
+- #cite(<benchekroun2019oligopoly>, form: "full")
 
 
 = Dynamic Bertrand Competition and Energy Transition (?)
 
-#cite(<ludkovski2015game>, form: "full")
-#cite(<green1992competition>, form: "full")
+- #cite(<ludkovski2015game>, form: "full")
+- #cite(<green1992competition>, form: "full")
 
 
 = Metodologia
 
-#cite(<dockner2000differential>, form: "full")
-#cite(<bacsar1998dynamic>, form: "full")\
-#cite(<bressan2007introduction>, form: "full")
+- #cite(<dockner2000differential>, form: "full")
+- #cite(<bacsar1998dynamic>, form: "full")\
+- #cite(<bressan2007introduction>, form: "full")
 
 
 
