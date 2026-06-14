@@ -15,10 +15,200 @@ _Znaczenie dla rozwoju ekonmii_: Znaczenie jest dwojakie. Po pierwszy rozwijamy 
 ** DONE Krótki przegląd literatury (kluczowe pozycje na temat danego problemu badawczego ze wskazaniem luk, które kandydat zamierza wypełnić, to nie jest bibliografia)
 
 Literatura z następujących zakresów:
-- literatura związana ze zmianami technologicznymi (niekoniecznie matematyczna), np. tutaj mogą być jakieś raporty rządowe, albo organizacji pozarządowych, również raporty ekologiczne, może jakaś literatura prawna dotycząca wprowadzanych regulacji, również literatura ekonomiczna, np. dotycząca ETS, raporty z realizacji ETS i kolejnych fal tego programu, może literatura omawiająca organizację rynku energii elektrycznej, może jakaś literatura dotycząca kwestii inżynierskich, np. podział EU na regiony energetyczne, jak w tej chwili wygląda rynek wytwórców energii, literatura z zakresu monopoli naturalnych oraz regulacji (policy)
-- literatura związana ze zmianami technologicznymi (nie tylko energia elektryczna), np. tutaj mogą być jakieś specjalizowane model dotyczące energii elektrycznej, w szczególności takie, które opierają się na grach różniczkowych
-- literatura techniczna związana z sterowaniem optymalnym
+- literatura związana ze zmianami technologicznymi (niekoniecznie matematyczna), np. tutaj mogą być jakieś raporty rządowe, albo organizacji pozarządowych, również raporty ekologiczne,
+może jakaś literatura prawna dotycząca wprowadzanych regulacji, również literatura ekonomiczna, np. dotycząca ETS, raporty z realizacji ETS i kolejnych fal tego programu,
+może literatura omawiająca organizację rynku energii elektrycznej, może jakaś literatura dotycząca kwestii inżynierskich, np. podział EU na regiony energetyczne,
+jak w tej chwili wygląda rynek wytwórców energii, literatura z zakresu monopoli naturalnych oraz regulacji (policy)
+
+
+
+Rynek energii elektrycznej stanowi szczególny segment gospodarki, którego organizacja i funkcjonowanie determinowane jest zarówno przez mechanizmy rynkowe, polityki regulacyjne,
+jak i ograniczenia techniczne wynikające z charakterystyki energii elektrycznej. Obecne zrestrukturyzowane rynki energii elektrycznej ukazują znaczenie i skuteczność
+odpowiedniego projektowania mechanizmów rynkowych. W ciągu ostatnich kilku dekad rynki energii elektrycznej przeszły znaczące zmiany, aby sprostać złożonym wyzwaniom o charakerze ekonomicznym
+i inżynierskim. W tym okresie rynki te w dużej mierze zrealizowały cel polegający na zapewnieniu odbiorcom niezawodnych dostaw energii elektrycznej przy
+możliwie najniższych kosztach. Nie jest to zadanie proste - energia elektryczna musi być wytwarzana i odbierana niemal jednocześnie, zatem w każdej chwili popyt i podaż muszą się równoważyć w
+obecności ograniczeń związanych z zasobami i siecią elektroenergetyczną. Co więcej, dobrze zaprojektowany rynek musi wysyłać odpowiednie sygnały cenowe do procentów energii oraz inwestorów,
+aby umożliwić efektywne generowanie energii oraz inwestowanie w zasoby związane z energią elektryczną w dłuższym horyzoncie czasowym (Cramton, 2017). Wspólczesne rynki energii elektrycznej
+obejmują szereg segmentów, takich jak rynek terminowy (forward i futures), rynek dnia następnego (ang. day-ahead), rynek dnia bieżącego (ang. intraday), rynek bilansujący (ang. balancing market) 
+oraz rynek usług systemowych (ang. ancillary services market). Istotną rolę odgrywają również długookresowe formy kontraktowania energii, w szczególności kontrakty dwustronne oraz umowy zakupu
+energii elektrycznej (ang. Power Purchase Agreements, PPA) (Internatinal Energy Agency, 2025). Na rynku funkcjonuje też szereg podmiotów wytwarzających energię elektryczną, w tym
+elektrownie gazowe, jądrowe, węglowe, wodne, słoneczne, wiatrowe, a także elektrownie wykorzystujące biomasę.
+
+
+Jak zauważa Pollitt (2019), pomimo postępującej od lat 90. XX wieku liberalizacji rynków energii
+elektrycznej oraz rozwoju konkurencji w obszarze wytwazania i obrotu energią w obliczu i jako echo regulacji rynkowych Komisji Europejskich z 1996 roku (96/92/EC), sektor elektroenergetyczny
+zachowuje pewne specyficzne cechy odróżniające go od typowych rynków konkurencyjnych.
+Wynikają one przede wszystkim z konieczności wykorzystania rozbudowanej infrastruktury przesyłowej i dystrybucyjnej, której budowa wiąże się z bardzo wysokimi kosztami stałymi oraz znaczącymi
+efektami skali. W konsekwencji równoległe funkcjonowanie wielu konkurujących ze sobą sieci elektroenergetycznych byłoby nieefektywne. Zazwyczaj więc jeden podmiot uzyskuje koncesję
+na obsługę danego segmentu gospodarki.
+
+Wobec powyższego, sektor dostawców energii elektrycznej jest powszechnie uznawany za przykład monopolu naturalnego, który wymaga odpowiedniego nadzoru regulacyjnego. Klasyczne ujęcie tego problemu
+przedstawiają m.in. Kahn (1988) oraz Joskow (2007, 2008), którzy podkreślają, że specyfika funkcjonowania sieci przesyłowych i dystrybucyjnych wynika z wysokich kosztów infrastrukturalnych
+przy współwystępowaniu silnych efektów skali.
+
+
+Pomimo, że sieci elektroenergetycze zachowują charakter monopoli naturalnych funkcjonujących pod nadzorem regulatorów krajowych, rozwój infrastruktury transgranicznej prowadzi do (promowanej
+przez KE od 1996 roku) stopniowej integracji rynku energii elektrycznej w Unii Europejskiej. Wobec tego, dezycje podejmowane przez podmioty na rynku wytwórców energii
+coraz częściej zależą zarówno od warunków gospodarczych i prawnych panujących w danym pańswie członkowskim, jak i od sytuacji w innych częściach europejskiego systemu elektroenergetycznego.
+Współczesny europejski rynek energii funkcjonuje w oparciu o kooperację operatorów systemów przesyłowych zrzeszonych w tzw. European Network of Transmission System Operators for Electricity
+(ENTSO-E) zapewniających bezpieczeństwo podaży, rzetelność i koordynację pracy infrastruktury elektroenergetycznej w skali całego Starego Kontynentu. Wobec powyższych faktów,
+rynek wytwórców energii elektrycznej w UE przyjmuje formę rynku konkurencyjnego o charakterze ponadnarodowym (Parlament Europejski, 2025). Uwidacznia się więc rozróżnienie pomiędzy charakterem
+segmentami rynku energii elektrycznej: segment oparty o przesył i dystrybucję energii ma charakter monopolu naturalnego, natomiast segment rynku dotyczący wytwórców i obrotu energią elektryczną
+jest już przykładem rynku konkurencyjnego.
+
+Oczywiście, istnienie zintegrowanego konkurencyjnego rynku wytwórców energii elektrycznej nie przekłada się na to, że podmioty w nim uczestniczące są cenobiorcami jednolitej ceny dla wszystkich
+w całej UE. Europejski model rynku opiera się na tzw. strefach cenowych (ang. bidding zones). Zostały one zdefiniowanie w Rozporządzeniu Parlamentu Eurpojskiego i Rady Unii Europejskiej (2019/943)
+jako maksymalne obszary geograficzne, w obrębie których uczestnicy rynku mogą dokonywać wymiany energii bez konieczności alokacji zdolności przesyłowych pomiędzy poszczególnymi uczestnikami rynku
+(ENTSO-E, 2025). Chociaż większość państw członkowskich stanowi pojedynczą strefę cenową, niektóre kraje zostały podzielone na kilka stref odwzierciedlających regionalne ograniczenia 
+sieci oraz różnice pomiędzy popytem i podażą energii elektrycznej - w szczególności Włochy (6 stref), Norwegia (5 stref), Szwecja (4 strefy), Dania (2 strefy). Jak wskazuje m.in. 
+Pollitt (2019), pomimo istnienia wielu stef cenowych europejski rynek elektroenergii funkcjonuje jako zintegrowany system dzięki tzw. mechanizmowi łączenia rynków (ang. market coupling).
+W ramach mechanizmu market coupling, dostępne (transgraniczne) zdolności przesyłowe są uwzględnianie bezpośrednio w procesie wyznaczania cen energii elekrycznej. Może być ona kupowana
+i sprzedawana pomiędzy dwoma rynkami przy wykorzystaniu wspólnego algorytm wyznaczania cen rynkowych. eżeli dostępna zdolność przesyłowa jest wystarczająca, ceny energii na obu rynkach ulegają
+wyrównaniu. Natomiast w przypadku występowania ograniczeń przepustowości sieci przesyłowej energia przepływa z rynku o niższej cenie do rynku o wyższej cenie (Pollitt, 2019).
+Obecnie większość państw członkowskich Unii Europejskiej uczestniczy w zintegrowanym mechaniźmie Single Day-Ahead Coupling (SDAC), który stanowi podstawę funkcjonowania wspólnego europejskiego
+rynku energii elektrycznej (NEMO Committee, 2025).
+
+
+Omówione procesy integracji rynku energii elektrycznej, rozwoju infrastruktury ponadnarodowej oraz koordynacji pomiędzy operatorami systemów przesyłowych są w znacznym stopniu kształtowane 
+przez regulacje prawne oraz instrumenty polityki energetycznej i klimatycznej UE. Obecnie szczególne znaczenie mają działania mające na celu osiągnąć neutralność klimatyczną, ograniczyć
+emisję gazów cieplarnianych oraz wzmocnić tzw. bezpieczeństwa energetycznego państw członkowskich. Do najważniejszych inicjatyw regulacyjno-prawnych w rzeczonym zakresie należy wymienić
+program REPowerEU oraz pakiet Gotowi na 55 (ang. Fit for 55). Ten pierwszy plan został powołany do życia w związku z wojną w Ukrainie w maju 2022 roku w celu m.in. oszczędzania energii,
+dywersyfikowania jej dostawy oraz "przekształcenia procesów przemysłowych w celu zastąpienia gazu, ropy naftowej i węgla odnawialną energią elektryczną i wodorem ze źródeł innych niż kopalne
+z działaniami po stronie podaży na rzecz stworzenia zdolności i ram w zakresie upowszechniania i produkcji energii odnawialnej" (Komisja Europejska, 2022). Natomiast ten drugi, jak podaje
+Rada Europejska i Rada Unii Europejskiej, jest obowiązkowym celem klimatycznym, polegającym na
+ograniczeniu emisji w UE do 2030 roku o co najmniej 55% względem poziomu z 1990 roku i wytyczyniu takiej ścieżki, która pozwoli do 2050 roku osiągnąć neutralność klimatyczną. Pakiet obejmuje
+szereg zmian wpływających bezpośrednio na sektor elektroenergetyczny (Komisja Europejska, 2021). Szczególną rolę w realizacji celów polityki klimatycznej Unii Europejskiej odgrywają instrumenty ekonomiczne oddziałujące
+bezpośrednio na koszty wytwarzania energii elektrycznej. Najważniejszym z nich jest Unijny System Handlu Uprawnieniami do Emisji (ang. EU Emissions Trading System, EU ETS).
+
+
+Unijny System Handlu Uprawnieniami do Emisji (nazywany odtąd skrótowo ETS) jest pierwszym w świecie rynkiem emisji dwutlenku węgla, uruchomionym w 2005 roku i pozostającym jednym z największych
+tego systemu na świecie. Mechanizm ten opiera się na zasadzie "zanieczyszczający płaci" i nakłada on na przedsiębiorstwa obowiązek ponoszenia kosztów emisji gazów cieplarnianych
+(ang. greenhouse gases, GHG). W rezultacie przyczynia się on do zmniejszenia emisji gazów cieplarnianych w UE i jednocześnie generuje przychody pozwalające na sfinansowanie procesu
+transformacji energetycznej w stronę tzw. zielonej energii elektrycznej. System obejmuje m.in. emisje pochodzące z wytwarzania energii elektrycznej i cieplnej. Odpowada on za około 40 procent
+całkowitej emisji w UE.  
+
+Istotnym jest zrozumienie, jak działa system ETS. Opiera się on mianowicie na zasadzie tzw. "cap and trade". Termin "cap" odnosi się do limitu ustanowionego dla całkowitej ilości gazów
+cieplarnianych, które mogą zostać wyemitowane przez instalacje i operatorów objętych zasięgiem systemu. Limit ten jest corocznie zmniejszany zgodnie z celem klimatycznym Unii Europejskiej,
+co zapewnia stopniowy spadek całkowitych emisji w UE. Do 2023 r. ETS przyczynił się do obniżenia emisji pochodzących z europejskich elektrowni o około 47% w porównaniu z poziomem z 2005 r.
+Limit emisji w ramach EU ETS jest wyrażany w uprawnieniach do emisji (ang. emission allowances), przy czym jedno uprawnienie daje prawo do wyemitowania jednej tony ekwiwalentu CO2.
+Uprawnienia te są sprzedawane na aukcjach i mogą być przedmiotem obrotu. Jako, że zmniejszany jest limit emisji, zmniejsza się również podaż uprawnień na europejskim rynku emisji.
+W ramach systemu przedsiębiorstwa są zobowiązane do corocznego monitorowania i raportowania swoich emisji oraz do umarzania wystarczającej liczby uprawnień w celu pełnego pokrycia wielkości
+swoich rocznych emisji - w przypadku niespełnienia tych wymogów nakładane są wysokie kary finansowe.
+
+Wprowadzenie kosztu emisji GHG powoduje, że przedsiębiorstwa energetyczne muszą inaczej profilować swoje decyzje inwestycyjne w świetle tychże regulacji. W szczególności wzrost cen uprawnień
+do emisji zwiększa w naturalny sposób koszty eksploatacji technologii wysokoemisyjnych, poprawiając tym samym konkurencyjność źródeł niskoemisyjnych oraz odnawialnych. Zatem, system ETS
+nie jest jedynie instrumentem do redukcji emisji, lecz jednocześnie mechanizmem stymulującym proces zmian technologicznych i strukturalnych zachodzącym na rynku wytwórcow energii elektrycznej.
+
+
+Transformacja energetyczna jest procesem, w którym mamy do czynienia z sekwencyjną substytucją technologiczną. W przeciwieństwie do wcześniejszych okresów rozwoju elektroenergetyki (i energetyki
+w ogóle), opartych głównie na paliwach kopalnych i dużych jednostkach wytwórczych, obecna transformacja energetyczna prowadzi do wzrostu znaczenia OZE, magazynów energii, czy technologii
+cyfrowych (IEA, 2023). Proces ten jest stymulowany zarówno poprzez obecny na praktycznie każdym etapie dziejów postęp technologiczny, jak i poprzez wspomniane regulacje klimatyczno-energetyczne czy
+instrumenty tychże regulacji/polityk, jak na przykład system ETS. 
+
+Jak wskazuje opracowanie IEA (2023), proces transformacji energetycznej wymaga znaczącej przebudowy infrastruktury sieci elektroenergetycznych. Według szacunków organizacji, aby zrealizować  
+cele energetyczne i klimatyczne w większości krajów, światowe zużycie energii elektrycznej musi w ciągu najbliższej dekady rosnąć o około 20% szybciej niż w poprzedniej dekadzie.
+W scenariuszu prowadzącym do osiągnięcia zeroemisyjności netto do 2050 roku, zgodnym z ograniczeniem wzrostu średniej temperatury na świecie do 1,5 stopnia Celcjusza do tegoż roku,
+zapotrzebowanie na energię elektryczną powinno wzrastać jeszcze szybciej. Rozbudowa sieci elektroenergetycznych jest niezbędna, aby umożliwić taki wzrost.
+
+Według autorów wspomnianego opracowania, realizacja krajowych celów energetycznych oznacza również konieczność budowy lub modernizacji ponad 80 milionów kilometrów sieci elektroenergetycznych
+do 2040 roku, co odpowiada długości całej aktualnie istniejącej światowej sieci elektroenergetycznej. W scenariuszu, w którym państwa w pełni i terminowo realizują swoje cele energetyczne i klimatyczne,
+energia wiatrowa i fotowoltaiczna odpowiadają za ponad 80% całkowitego przyrostu światowych mocy wytwórczych w ciągu najbliższych dwóch dekad. Dla porównania, w ciągu poprzednich dwudziestu lat
+udział ten wynosił mniej niż 40%.
+
+Opisane zmiany wskazują, że współczesna transformacja energetyczna nie ogranicza się jedynie do zastępowania jednych technologii wytwórczych innymi. Wraz ze wzrostem udziału OZE, magazynów
+energii oraz rozproszonych zasobów energetycznych zmianie ulega również sposób funkcjonowania samych rynków energii elektrycznej. Pinson (2013) zauważa, że rosnący udział OZE, w szczególności
+energetyki wiatrowej i słonecznej, przekłada się na wzrost znaczenia zmienności produkcji energii oraz ograniczoną przewidywalność co do jej pozyskiwania. Ryzyko te powinno według autora zostać
+uwzględnione prze projektowaniu współczesnych rynków energii elektrycznej i proponuje on odejście od deterministycznych metod modelowania rynku energii elektrycznej na rzecz podejść opartych
+o metody stochastyczne. Autor wskazuje również, że do najistotniejszych wyzwań współczesnych rynków energii należy zaprojektować go w sposób umożliwiający integrację rosnącej liczby źródeł
+odnawialnych, wspieranie decentralizacji produkcji energii oraz zapewnienie odpowiednich bodźców inwestycyjnych dla nowych technologii. 
+
+
+Opisane wyzwania stawiane są w obliczu zachodzącej zmiany technologicznej, prowadzącej do stopniowego zastępowania obecnych technologii nowymi (zgodnie z Schumpeterowską koncepcją twórczej destrukcji).
+W kontekście ekonomicznym jest to proces substytucji technologicznej. Jest to zagadnienie znane w literaturze przedmiotu m.in. badań ilościowych.
+Jednym z najbardziej uznanych modeli opisujący tego rodzaju zmiany jest model Fishera i Pry'a (1971),
+na bazie którego kolejni badacze proponowali rozszerzenia tegoż modelu (np. Kwaśnicki i Kwaśnicka, 1996). Autorzy pokazali, że udziały konkurujących technologii cześto ewoluują według
+dosyć regularncyh prawidłowości, umożliwiających analizę oraz prognozowanie zmian strukturalnych w długim okresie. Nurt badań w dziedzinie substytucji technologii został rozwinięty
+m.in. przez Marchettiego (1977), który zastosował modele substytucji technologicznej do badania historycznych przemian w sektorze energetycznym. Współczesnym przykładem pracy, w której rozwinięto
+rzeczony nury badawczy jest model "Future Technology Transformations in the Power Sector" (Mercure, 2012). Model ten stara się odzwierciedlać globalne systemy elektroenergetyczne oparte
+o konkurencje rynkową czy indukowaną zmianę technologiczną (ang. induced technological change, ICT). Narzędziowo, model wykorzystuje dynamiczny układ sprzężonych równań różniczkowych
+z opóźnieniem. Metologia ta pozwala na adekwatne odwzorowanie tempa oraz struktury zmian zachodzących podczas transformacji technologicznych w poszczególnych sektorach gospodarki.
+
+Należy jednak zauważyć, że modele substytucji technologicznej koncentrują się przede wszystkim na analizie ewolcji poszczegółnych technologii w czasie. Wymienione wyżej modele nie uwzględniają
+wprost strategicznych interakcji pomiędzy podmiotami na rynku wytwórców energii elektrycznej. W szczególności, nie modelują one sytuacjil, w których decyzje inwestycyjne lub produkcyjne 
+poszczególnych agentów wpływają wzajemnie m.in. na swoje wypłaty. Oznacza to, że w modelach tych nie występuje podejście teoriogrowe, a więc i w szczególności gier różniczkowych opisujących
+dynamiczną konkurencję pomiędzy wytwórcami czy decydentami na rynku energii elektrycznej. Gracze przestaliby być krótkowzroczni, natomiast mogliby optymalizować swoje decyzje w długim
+(nieskończonym) okresie.
+
+W kontekście ekonomii środowiskowej, ekonomii eksploatacji zasobów czy energetyki jako takiej istnieje rozbudowana literatura modeli opartych o gry różniczkowe, w których równania ruchu czy zmiany stanu opisane
+są równaniami różniczkowymi zwyczajnymi czy stochastycznymi równaniami różniczkowymi (patrz np. Yeung i Pietrosjan, 2006; Jørgensen i Zaccour, 2007; artykuł przeglądowy Van Longa, 2011). Istotnym kierunkiem rozwoju
+współczesnej teorii gier dynamicznych (różniczkowych) są tzw. gry średniego pola (ang. mean field games, MFG) zaproponowane niezależnie przez francuskich matematyków Jean-Michela Lasry i Pierre-Louis Lions
+w latach 2006-2007 (patrz: Lasry i Lions, 2007). Podejście to zrodziło się jako odpowiedź na problem modeleowania układów składających się z bardzo dużej liczby agentów
+wchodzących ze sobą w interakcje (matematycznie analizuje się często asymptotycznie dużą liczbę graczy czy nawet continuum graczy).
+Zamiast analizować wszystkie interakcje pomiędzy graczami, każdy uczestnik gry reaguje na zagregowany stan całej populacji, określony mianem pola średniego
+(ang. mean field). Matematycznie można zapisać tę odpowiedź za pomocą układu równań różniczkowych cząstkowych opisujących jednocześnie optymalne zachowanie pojedynczego gracza oraz ewolucję
+rozkładu całej populacji. Koncepcja ta wywodzi się częściowo z metod fizyki statycznej i znajduje szerokę gamę zastosowań nie tylko w ekonomii i finansach, ale też m.in. w ekonofizyce,
+modelowaniu procesów dyfuzji czy przy modelowaniu dynamiki populacji. Ostatnimi czasy podejście to jest coraz częściej wykorzystywane jako narzędzie do badań transformacji energetycznej
+czy konkurencji pomiędzy wytwórcami energii elektrycznej oraz decyzji inwestycyjnych podejmowanych przez dużą liczbę uczestników rynku. Przykładami prac stosujących aparaturę MFG i dotykających
+problematyki substytucji technologicznej czy zmiany struktury energetycznej są m.in. Aïd i inni (2021), Bassière i inni (2024), Dumitrescu i inni (2024), Féron i inni (2020). 
+
+Ważną lukę w dziedzinie badań nad substytucją technologiczną czy generacji w kontekście rynków wytwórców energii elektrycznej stanowi, według mojej najlepszej wiedzy, brak prac w których jednocześnie
+modelowany jest rynek wytwórców energii elektrycznej, rozważa się zmianę technologiczną, wyprowadzane jest równanie ruchu na podstawie teorii uczenia w grach populacyjncyh i zagadnienie to jest sformułowane
+w obrębie gier różniczkowych. W niniejszej pracy chciałbym wypełnić tę lukę, tworząc m.in. ogólny model gry różniczkowej rynku generacji energii elektrycznej.
+
+
+Wstępną dziedziną wiedzy, jaką należy zgłębić przed modelowaniem rynku za pomocą gier różniczkowych jest tzw. optymailzacja dynamiczna, w której jeden decydent optymalizuje swoje wybory w obliczu (częściowo)
+dostępnej wiedzy. Głównym jej narzędziem jest tzw. teoria sterowania optymalnego, stanowiąca dziedzinę matematyki stosowanej poświęconą badaniu i projektowaniu dynamicznych systemów sterowania.
+Celem tejże teorii jest wyznaczenie takich strategii oddziaływania na system (opisany przy pomocy równań różniczkowych), które pozwalają optymalnie (najtaniej, osiągając największy zysk) osiągnąć zadany cel
+przy uwzględnieniu dynami opisywanej najczęściej za pomocą równań różniczkowych. Do najbardziej uznanych opracowań z zakresu teorii, które zamierzam wykorzystać, należą m.in. Chiang (2000),
+Bressan i Piccoli (2007), Zabczyk (2020), Hernández-Lerma i inni (2023).
+
+
+Finalnie, podstawowym narzędziem do modelowania użytym w pracy będą gry różniczkowe. Stanowią one podklasę gier dynamicznych (ang. dynamic games) określanych mianem gier z przestrzenią stanów
+(ang. state-space games). W grze z przestrzenia stanów modelujący wprowadza zbiór zmiennych (zmiennych stanu), które opisują stan układu dynamicznego w dowolnym momencie rozgrywki
+Jeśli gra z przestrzenią stanów zostaje sformułowana jak gra różniczkowa, zakłada się wówczas, że czas jest ciągły, a ewolucja zmiennych stanu w czasie może być opisana za pomocą układu równań różniczkowych.
+Można również sformułować model w czasie dyskretnym - równania różniczkowe są wówczas zastępowane równaniami różnicowymi, a otrzymany model jest w wyniku grą różnicową (ang. difference game).
+Można w tym miejscu wymienić kilka uznanych pozycji z zakresu teorii gier dynamicznych i różniczkowych. Są to m.in. Başar i Olsder (1998), Docker i inni (2000), Van Long (2010) czy Haurie i inni (2012). 
+
+
+
 - literatura techniczna związana z grami różniczkowymi
+
+
+Bibliografia:
+Aïd, R., Dumitrescu, R., & Tankov, P. (2021). The entry and exit game in the electricity markets: a mean-field game approach. J Dyn Games 8 (4): 331–358.
+Bassière, A., Dumitrescu, R., & Tankov, P. (2024). A mean-field game model of electricity market dynamics. In Quantitative Energy Finance: Recent Trends and Developments (pp. 181-219). Cham: Springer Nature Switzerland.
+Başar, T. and Olsder, G.J. (1998) Dynamic noncooperative game theory. SIAM.
+Bressan, A. and Piccoli, B. (2007) Introduction to the mathematical theory of control. American institute of mathematical sciences. Springfield.
+Chiang, A. C. (2000). Elements of dynamic optimization. Illinois: Waveland Press Inc.
+Council of the European Union. (n.d.). Gotowi na 55 (Fit for 55), dostęp: 13.06.2026. Consilium. https://www.consilium.europa.eu/pl/policies/fit-for-55/.
+Cramton, P. (2017). Electricity market design. Oxford Review of Economic Policy, 33(4), 589-612.
+Dockner, E. (2000) Differential games in economics and management science. Cambridge university press.
+Dumitrescu, R., Leutscher, M., & Tankov, P. (2024). Energy transition under scenario uncertainty: a mean-field game of stopping with common noise. Mathematics and Financial Economics, 18(2), 233-274.
+ENTSO-E. (2025). Bidding Zone Review of the 2025 Target Year. European Network of Transmission System Operators for Electricity.
+European Union Agency for the Cooperation of Energy Regulators. (2026). Analysis of the European LNG market developments.   
+Féron, O., Tankov, P., & Tinsi, L. (2020). Price formation and optimal trading in intraday electricity markets with a major player. Risks, 8(4), 133.
+Haurie, A., Krawczyk, J. B., & Zaccour, G. (2012). Games and dynamic games (Vol. 1). World Scientific Publishing Company.
+Hernández-Lerma, O., Laura-Guarachi, L. R., Mendoza-Palacios, S., & González-Sánchez, D. (2023). An introduction to optimal control theory. Cham: Springer International Publishing AG (Texts in applied mathematics).
+IEA (2025). Electricity Market Design: Building on strengths, addressing gaps, IEA, Paris.
+International Energy Agency. (2023). Electricity grids and secure energy transitions: Enhancing the foundations of resilient, sustainable and affordable power systems. IEA, dostęp: 13.06.2026. https://www.iea.org/reports/electricity-grids-and-secure-energy-transitions
+Joskow, P. L. (2007). Regulation of natural monopoly. Handbook of law and economics, 2, 1227-1348.
+Joskow, P. L. (2008). Lessons learned from electricity market liberalization. The Energy Journal, 29(2_suppl), 9-42.
+Jørgensen, S., & Zaccour, G. (2007). Developments in differential game theory and numerical methods: economic and management applications. Computational Management Science, 4(2), 159-181.
+Kahn, A. E. (1988). The economics of regulation: principles and institutions (Vol. 1). MIT press.
+Komisja Europejska. (2021). 'Fit for 55': Delivering the EU's 2030 climate target on the way to climate neutrality (COM(2021) 550 final). European Commission, dostęp: 13.06.2026. https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52021DC0550.
+Komisja Europejska. (2022). REPowerEU plan (COM(2022) 230 final). European Commission.
+Komisja Europejska. (n.d.). About the EU Emissions Trading System (EU ETS). European Commission, dostęp: 13.06.2026. https://climate.ec.europa.eu/eu-action/carbon-markets/about-eu-ets_en.
+Kwaśnicki, W., & Kwaśnicka, H. (1996). Long-term diffusion factors of technological development: An evolutionary model and case study. Technological Forecasting and Social Change, 52(1), 31–57.
+Lasry, J. M., & Lions, P. L. (2007). Mean field games. Japanese journal of mathematics, 2(1), 229-260.
+Long, N. V. (2011). Dynamic games in the economics of natural resources: a survey. Dynamic Games and Applications, 1(1), 115-148.
+Marchetti, C. (1977) “Primary energy substitution models: on the interaction between energy  and society,” Technological forecasting and social change, 10(4), pp. 345–356.
+Mercure, J.-F. (2012) “FTT: Power: A global model of the power sector with induced technological change and natural resource depletion,” Energy Policy, 48, pp. 799–811.
+NEMO Committee. (2025). Single Day-Ahead Coupling (SDAC), dostęp: 13.06.2026. https://www.nemo-committee.eu/sdac.
+Parlament Europejski. (2025). Internal Energy Market, Fact Sheets on the European Union, dostęp: 13.06.2026. https://www.europarl.europa.eu/factsheets/en/sheet/45/internal-energy-market.
+Pollitt, M. G. (2019). The European Single Market in Electricity. Review of Industrial Organization, 55(1), 63-87.
+Yeung, D. W., & Petrosyan, L. A. (2006). Cooperative stochastic differential games. New York, NY: Springer New York.
+Zabczyk, J. (2020). Mathematical control theory. Springer International Publishing.
+
 
 ** TODO Główne pytania badawcze, które dezagregują na cząstkowe elementy stawiany przez kandydata problem badawczy
 
