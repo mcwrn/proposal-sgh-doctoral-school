@@ -123,7 +123,7 @@ o metody stochastyczne. Autor wskazuje również, że do najistotniejszych wyzwa
 odnawialnych, wspieranie decentralizacji produkcji energii oraz zapewnienie odpowiednich bodźców inwestycyjnych dla nowych technologii. 
 
 
-Opisane wyzwania stawiane są w obliczu zachodzącej zmiany technologicznej, prowadzącej do stopniowego zastępowania obecnych technologii nowymi (zgodnie z Schumpeterowską koncepcją twórczej destrukcji).
+Opisane wyzwania stawiane są w obliczu zachodzącej zmiany technologicznej, prowadzącej do stopniowego zastępowania obecnych technologii nowymi.
 W kontekście ekonomicznym jest to proces substytucji technologicznej. Jest to zagadnienie znane w literaturze przedmiotu m.in. badań ilościowych.
 Jednym z najbardziej uznanych modeli opisujący tego rodzaju zmiany jest model Fishera i Pry'a (1971),
 na bazie którego kolejni badacze proponowali rozszerzenia tegoż modelu (np. Kwaśnicki i Kwaśnicka, 1996). Autorzy pokazali, że udziały konkurujących technologii cześto ewoluują według
@@ -152,8 +152,8 @@ czy konkurencji pomiędzy wytwórcami energii elektrycznej oraz decyzji inwestyc
 problematyki substytucji technologicznej czy zmiany struktury energetycznej są m.in. Aïd i inni (2021), Bassière i inni (2024), Dumitrescu i inni (2024), Féron i inni (2020). 
 
 Ważną lukę w dziedzinie badań nad substytucją technologiczną czy generacji w kontekście rynków wytwórców energii elektrycznej stanowi, według mojej najlepszej wiedzy, brak prac w których jednocześnie
-modelowany jest rynek wytwórców energii elektrycznej, rozważa się zmianę technologiczną, wyprowadzane jest równanie ruchu na podstawie teorii uczenia w grach populacyjncyh i zagadnienie to jest sformułowane
-w obrębie gier różniczkowych. W niniejszej pracy chciałbym wypełnić tę lukę, tworząc m.in. ogólny model gry różniczkowej rynku generacji energii elektrycznej.
+modelowany jest rynek wytwórców energii elektrycznej, rozważa się zmianę technologiczną i strukturalną, wyprowadzane jest równanie ruchu na podstawie teorii uczenia w grach populacyjncyh
+i zagadnienie to jest sformułowane w obrębie gier różniczkowych. W niniejszej pracy chciałbym wypełnić tę lukę, tworząc m.in. ogólny model gry różniczkowej rynku generacji energii elektrycznej.
 
 
 Wstępną dziedziną wiedzy, jaką należy zgłębić przed modelowaniem rynku za pomocą gier różniczkowych jest tzw. optymailzacja dynamiczna, w której jeden decydent optymalizuje swoje wybory w obliczu (częściowo)
@@ -167,7 +167,7 @@ Finalnie, podstawowym narzędziem do modelowania użytym w pracy będą gry ró�
 (ang. state-space games). W grze z przestrzenia stanów modelujący wprowadza zbiór zmiennych (zmiennych stanu), które opisują stan układu dynamicznego w dowolnym momencie rozgrywki
 Jeśli gra z przestrzenią stanów zostaje sformułowana jak gra różniczkowa, zakłada się wówczas, że czas jest ciągły, a ewolucja zmiennych stanu w czasie może być opisana za pomocą układu równań różniczkowych.
 Można również sformułować model w czasie dyskretnym - równania różniczkowe są wówczas zastępowane równaniami różnicowymi, a otrzymany model jest w wyniku grą różnicową (ang. difference game).
-Można w tym miejscu wymienić kilka uznanych pozycji z zakresu teorii gier dynamicznych i różniczkowych. Są to m.in. Başar i Olsder (1998), Docker i inni (2000), Van Long (2010) czy Haurie i inni (2012). 
+Można w tym miejscu wymienić kilka uznanych pozycji z zakresu teorii gier dynamicznych i różniczkowych. Są to m.in. Başar i Olsder (1998), Dockner i inni (2000), Van Long (2010) czy Haurie i inni (2012). 
 
 
 
@@ -200,6 +200,7 @@ Komisja Europejska. (2022). REPowerEU plan (COM(2022) 230 final). European Commi
 Komisja Europejska. (n.d.). About the EU Emissions Trading System (EU ETS). European Commission, dostęp: 13.06.2026. https://climate.ec.europa.eu/eu-action/carbon-markets/about-eu-ets_en.
 Kwaśnicki, W., & Kwaśnicka, H. (1996). Long-term diffusion factors of technological development: An evolutionary model and case study. Technological Forecasting and Social Change, 52(1), 31–57.
 Lasry, J. M., & Lions, P. L. (2007). Mean field games. Japanese journal of mathematics, 2(1), 229-260.
+Van Long, N. (2010). A survey of dynamic games in economics (Vol. 1). World Scientific.
 Long, N. V. (2011). Dynamic games in the economics of natural resources: a survey. Dynamic Games and Applications, 1(1), 115-148.
 Marchetti, C. (1977) “Primary energy substitution models: on the interaction between energy  and society,” Technological forecasting and social change, 10(4), pp. 345–356.
 Mercure, J.-F. (2012) “FTT: Power: A global model of the power sector with induced technological change and natural resource depletion,” Energy Policy, 48, pp. 799–811.
@@ -212,13 +213,30 @@ Zabczyk, J. (2020). Mathematical control theory. Springer International Publishi
 
 ** TODO Główne pytania badawcze, które dezagregują na cząstkowe elementy stawiany przez kandydata problem badawczy
 
-‼️ Tutaj trzeba zamienić to na pytania badawcze. 
-
 - Analiza dostępnych danych dotyczących Polskiego i Europejskiego rynku generacji energii elektrycznej.
+
+1. Jakie są najważniejsze cechy strukturalne i technologiczne polskiego i europejskiego rynku wytwórców energii elektrycznej? Jakie trendy regulacyjne i technologiczne determinują jego rozwój?
+
 - Przegląd istniejących w literaturze modeli z zakresu ekonomii gałęziowej (ang. industrial organization) wykorzytywanych do modelowania rynku generacji energii elektrycznej.
+
+2. Jakie modele wykorzystywane w literaturze z zakresu ekonomii gałęziowej, teorii sterowania, gier różniczkowych oraz gier średniego pola znajdują zastosowanie w analizie rynku
+energii elektrycznej i jego transformacji technologicznej? 
+
 - Stworzenie ogólnego modelu (gra różniczkowa) rynku generacji energii elektrycznej.
+
+3. W jakich sposób skonstruować model gry różniczkowej opisujący rynek konkurencyjny pomiędzy producentami wykorzystującymi różne technologie wytwórcze (podlegające procesom
+zmiany technologicznej)?
+
 - Specyfikacja i kalibracja modelu do gospodarki Polski.
+
+4. W jakim stopniu zaproponowany model odzwierciedla obserwowane procesy transformacji technologicznej w Polsce po jego kalibracji z wykorzystaniem
+danych odnośnie polskiego sektora elektroenergetycznego? 
+
 - Analiza scenariuszowa.
+
+5. W jaki sposób różne scenariusze polityki klimatyczno-energetycznej wpływają na tempo substytucji technologicznej
+oraz na zdolność systemu elektroenergetycznego do równoważenia podaży i popytu energii elektrycznej w obliczu strategicznych interakcji pomiędzy podmiotami rynkowymi?
+
 
 ** DONE Metody badawcze do rozwiązania problemu badawczego
 
