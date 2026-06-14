@@ -248,6 +248,72 @@ Wykorzystane zostaną typowe metody ekonomii matematycznej w tym:
 - algorytmy numeryczne sterowania optymalnego
 
 
+W pracy badawczej wykorzystane zostaną typowe metody ekonomii matematycznej.
+
+Pierwszą z metod jest teoria gier. Będę stosował klasyczne pojęcia równowagi, jak równowaga Nasha (ang. Nash Equilibrium, NE) w strategiach czystych i mieszanych i/lub inne
+koncepcje równowag, takie jak równowaga Nasha w sensie Markowa (ang. Markov-Perfect NE), NE doskonała w podgrach (ang. subgame-perfect NE), równowaga Stackelberga, 
+równowaga skorelowana (Aumann, 1974). W kontekście modeli rynku wytwórców energii elektrycznej zasadniczo będziemy rozważać gry niekooperacyjne.
+
+Podstawową dziedziną matematyki stosowanej służącą do opisu gier różniczkowych jest teoria sterowania. Podstawowymi pojęciami w jej obrębie są sterowanie i trajektoria.
+W proponowanym modelu zmiennymi stanu mogą być udziały poszczególnych technologii wytwórczych w strukturze rynku, moce zainstalowane lub poziom emisji, natomiast zmiennymi
+sterującymi decyzje produkcyjne podejmowane przez producentów energii elektrycznej. Funkcje celu  będą odzwierciedlały maksymalizację zdyskontowanych zysków przedsiębiorstw
+przy uwzględnieniu kosztów technologicznych, kosztów emisji oraz ograniczeń wynikających z polityki energetyczno-klimatycznych (np. ogółu podatków od emisji czy ograniczeń
+narzuconych przez regulacje prawne).
+
+W grach różniczkowych rozważa się różne struktury informacyjne
+(na podstawie których gracze są w stanie zdefiniować zbiór tzw. osiągalnych czyli możliwych sterowań). Wyróżnia się następujące rodzaje strategii:
+- strategie otwartej pętli (ang. open-loop strategy), w których to gracze nie mają możliwości zareagowania na zmianę stanu środowiska/rynku (nie znają trajektorii),
+- strategie zamkniętej pętli (ang. closed-loop strategy), w których możliwe strategie zależą od czasu i aktualnego stanu systemu,
+- strategie sprzężenia zwrotnego (ang. feeback-loop startegy), w których strategie zależą wyłącznie od aktualnego stanu systemu.
+W przypadku mojej pracy rozważane będą strategie otwartej pętli oraz strategie sprzężenia zwrotnego, odpowiadające odpowiednio sytuacjom, w których decyzje graczy są ustalone
+z góry lub dostosowywane do aktualnego stanu systemu.
+Do każdej z tych struktur informacyjnych można dopasować narzędzia z dziedziny teorii sterowania, które służą analizie jakościowej i/lub pozwalają wyznaczyć sterowania
+optymalne. W przypadku sterowań w otwartej pętli narzędziem do wyznaczenia optymalnej strategii jest tzw. zasada maksimum/minimum Pontriagina, oparta o tzw.
+Hamiltonian systemu. W przypadku sterowań w pętli zamkniętej/sprzężenia zwrotnego najbardziej popularną metodą jest tzw. programowanie dynamiczne (ang. dynamic
+programming) i używane w obrębie tej dziedziny następujące narzędzia: równanie Bellmana (dla problemów optymalizacyjnych postawionych w czasie dyskretnym; ang. Bellman
+Equation) oraz równanie Hamiltona-Jacobiego-Bellmana (ang. HJB Equation), funkcja wartości i rozwiązania lepkościowe równań Isaacsa (ang. viscosity solutions of
+Isaacs equations). W kontekście znalezienia kandydata na sterowanie optymalne bardzo ważnym z ekonomicznego punktu widzenia jest sprawdzenie, czy znaleziona trajektoria
+wynikająca z rozwiązania numerycznego lub analitycznego układu równań różniczkowych spełnia tzw. warunek transwersalności (ang. transversality condition). 
+Motywacją do sprawdzania tegoż warunku jest, czy zmienna ekonomiczna (np. dług) nie rośnie niekontrolowanie w długim okresie.
+
+Sam problem optymalizacyjny można zdefiniować na różne sposoby. Można zdefiniować zadanie optymalizacyjne w postaci tzw. zagadnienia Bolzy lub Mayera, oraz zdefiniować
+stowarzyszony horyzont czasowy: skończony (problemu typu tranzycyjnego z jednego scenariusza do innego, zagadnienie czaso-optymalne) lub nieskończony. Dodatkowo,
+można rozważać czy w długim okresie mamy do czynienia z tzw. spójnością czy niespójnością dynamiczną (odpowiednio z ang. time consistency i time inconsistency).
+Pozwala to sprawdzić, czy znaleziony schemat działania, który jest optymalny na początku gry, pozostanie optymalny również w późniejszych etapach gry. Możemy
+dodatkowo rozważać ograniczenia na stan w równaniu ruchu (czy też zmiany stanu zasobu) oraz ograniczenia na przestrzeń parametrów modelu. W pracy będę korzystać
+z kombinacji tych metod.
+
+Gry różniczkowe korzystają z dorobku teorii sterowania do formułowania problemów graczy w obliczu zmieniającego się stanu (np. obecnej struktury technologicznej) opisanego
+równaniem różniczkowym. Równanie to nazywa się w literaturze przedmiotu równaniem ruchu lub równaniem zmiany stanu. Zazwyczaj w grach różniczkowych rozważa się wspólny
+dla wszystkich graczy wektor stanu, którego ewolucja zależy od sterowań podejmowanych przez wszystkich uczestników gry. Wyjątkiem w tej kwestii zdają się być modele
+wyczerpywania zasobów (nie)odnawialnych, np. wydobycie
+ropy naftowej z indywidualnej kopalni (złoża) każdego gracza - wówczas każdy podmiot ma przypisane równanie zmiany (jego) stanu. Popularnym obecnie nurtem w modelowaniu
+rynku wytwórców energii elektrycznej są wspomniane w przeglądzie literatury gry pola średniego (MFG), gdzie rozważana jest duża liczba mniejszych graczy (to jest,
+mających w odosobnieniu minimalny wpływ na wysokość zmiennych ekonomicznych, takich jak cena energii elektrycznej czy ogólna wartość podaży). 
+W teorii gier pola średniego podstawową rolę odgrywa sprzężony układ równania Hamiltona-Jacobiego-Bellmana oraz równania Fokkera-Plancka-Kołmogorowa.
+Bardziej ogólne ujęcie prowadzi do tzw. równania głównego (master equation), opisującego ewolucję funkcji wartości na przestrzeni rozkładów prawdopodobieństwa.
+W przypadku modeli gier pola średniego analizowane są sprzężone układy równań HJB oraz Fokkera-Plancka pisujące jednocześnie optymalne zachowanie reprezentatywnego gracza
+oraz ewolucję rozkładu stanów w populacji uczestników rynku. 
+
+
+Do opisu równań ruchu/zmiany stanu używanych w grach różniczkowych, oraz w ogólności - do matematycznego sformułowania tychże modeli będę stosował narzędzia z nastepujących
+dziedzin matematyki: teorii równań różniczkowych (zwyczajnych i/lub cząstkowych), wielowymiarowej analizy matematycznej (np. twierdzenia o funkcji odwrotnej i uwikłanej),
+analizy funkcjonalnej (np. przestrzenie Banacha, słaba lub *-słaba topologia) czy elementów teorii miary i procesów stochastycznych (np. sigma-algebra, filtracja,
+czy optimal stopping).
+
+
+Ponadto, zamierzam zautomatyzować algorytmy służące do numerycznego wyznaczania optymalnego sterowania. W ramach współpracy z planowanym promotorem, prof. Ramszą, napisałem
+algorytm do obliczania optymalnego sterowania w pętli sprzężenia zwrotnego przy pomocy równań HJB w środowisku Wolfram Mathematica (algorytm oparty na pracy Carlini i inni, 2004).
+Narzędzie może zostać przepisane za pomocą np. języka Rust i puszczane z poziomu R w celu usprawnienia szybkości przeliczania algorytmu.
+W zależności od potrzeb algorytmy te będą rozwijane i implementowane w innych językach programowania oraz dostosowywane do specyfiki analizowanych modeli.
+
+
+Bibliografia
+Aumann, R. J. (1974). Subjectivity and correlation in randomized strategies. Journal of mathematical Economics, 1(1), 67-96.
+Carlini,  E.,  Falcone,  M., & Ferretti,  R.  (2004). An Efficient Algorithm for Hamilton–Jacobi Equations in High Dimension. Computing and Visualization in Science, 7(1), 15–29.
+
+
+
 ** DONE Oczekiwane teoretyczne i praktyczne wyniki problemu badawczego wybranego przez kandydata
 
 _Wyniki teoretyczne_
