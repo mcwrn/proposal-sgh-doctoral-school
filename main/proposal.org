@@ -6,11 +6,51 @@ Dynamiczne modele ekonomii matematycznej w analizie zmiany technologicznej i str
 
 ** DONE Wprowadzenie (określenie obszaru badawczego, powody wyboru problemu badawczego i jego znaczenie dla rozwoju danej dziedziny nauki)
 
-_Obszar badawczy_: Zastosowanie optymalizacji dynamicznej i gier różniczkowych w modelowaniu zmiany technologicznej na rynku wytwórców energii elektrycznej.
+_Obszar badawczy_: Zastosowanie optymalizacji dynamicznej i gier różniczkowych w modelowaniu zmiany technologicznej na rynku wytwórców
+energii elektrycznej.
 
-_Powody wyboru problemu badawczego_: Zmiana technologiczna na rynku energii elektrycznej nadchodzi czy tego chcemy czy nie. W związku z tym chcemy mieć narzędzia ekonomii matematycznej, przy pomocy których, jesteśmy w stanie analizować złożone, strategiczne zależności pomiędzy podmiotami na tym rynku. 
+Przedmiotem proponowanych badań jest zastosowanie metod optymalizacji dynamicznej (np. teorii sterowania) i gier różniczkowych do
+modelowania procesów zmiany technologicznej na rynku wytwórców energii elektrycznej. 
+Badania wpisują się w nurt ekonomii matematycznej zajmujący się analizą substytucji technologicznej,
+organizacji rynku oraz dynamicznych procesów decyzyjnych podejmowanych przez podmioty gospodarcze.
+Zatem szczególna uwaga zostanie poświęcona analizie
+substytucji technologicznej spośród rozmaitych technologii wytwórczych, strategicznym interakcjom pomiędzy producentami energii
+elektrycznej, oraz wpływowi polityki klimatyczno-energetycznej (szerzej omówionej w rozdziale "Krótki przegląd literatury") 
+na dynamicznie zmieniającą się strukturę rynku i decyzje inwestycyjne podmiotów rynkowych.
 
-_Znaczenie dla rozwoju ekonmii_: Znaczenie jest dwojakie. Po pierwszy rozwijamy narzędzia z zakresu ekonomii matematycznej a więc optymalizacje dynamiczną, modele gier różniczkowych i narzędzia numeryczne. Z drugiej strony atakujemy bardzo skomplikowany i bieżący problem związany z następującą zmianą technologiczną. 
+_Powody wyboru problemu badawczego_: Zmiana technologiczna na rynku energii elektrycznej nadchodzi czy tego chcemy czy nie.
+W związku z tym chcemy mieć narzędzia ekonomii matematycznej, przy pomocy których, jesteśmy w stanie analizować złożone, strategiczne
+zależności pomiędzy podmiotami na tym rynku. 
+
+Sektor elektroenergetyczny obecnie znajduje się w okresie znaczącej transformacji technologicznej związanej z m.in. wzrostem znaczenia
+odnawialnych źródeł energii (OZE), coraz istotniejszą kwestią magazynowania energii, cyfryzacją systemów elektroenergetycznych oraz
+polityki energetyczno-klimatycznej prowadzonej przez Unię Europejską. Proces ten prowadzi do stopniowego zastępowania dotychczas
+dominujących na rynku technologii nowymi rozwiązaniami technologicznymi. Kształtuje to tym samym strukturę rynku oraz decyzje
+podejmowane przez jego uczestników. Co więcej, w obecnych warunkach w warunkach zwiększonej niepewności geopolitycznej
+i zakłóceń na światowych rynkach surowców energetycznych (współczesnymi przykładami z 2026 roku są m.in. konflikt na Bliskim
+Wshodzie i zakłócenia transportu przez Cieśninę Ormuz), znaczenia nabierają kwestie bezpieczeństwa energetycznego
+oraz integracji europejskiego rynku energii elektrycznego. Analiza tych procesów wymaga zastosowania zaawansowanych narzędzi
+z zakresu ekonomii matematycznej umożliwiających jednoczesne modelowanie długookresowej zmiany technologicznej oraz analizę złożonych,
+strategicznych zależności pomiędzy podmiotami rynkowymi. 
+
+_Znaczenie dla rozwoju ekonmii_: Znaczenie jest dwojakie. Po pierwszy rozwijamy narzędzia z zakresu ekonomii matematycznej
+a więc optymalizacje dynamiczną, modele gier różniczkowych i narzędzia numeryczne. Z drugiej strony atakujemy bardzo skomplikowany
+i bieżący problem związany z następującą zmianą technologiczną. 
+
+Znaczenie proponowanych badań ma dwojaki charakter. Po pierwsze projekt przyczynia się do rozwoju ekonomii matematycznej
+wykorzystywanych do analizy dynamicznych procesów rynkowych, w szczególności rozwijane są narzędzia z zakresu optymalizacji dynamicznej
+(a dokładniej teorii sterowania), modele gier różniczkowych oraz metod numerycznych służących do ich rozwiązywania, tj. znajdywaniu
+optymalnych strategii graczy i równowag. Istotnym elementem badań jest więc rozwój modeli gier różniczkowych opisujących procesy
+zmiany technologicznej w warunkach strategicznych interakcji pomiędzy uczestnikami rynku.
+
+Z drugiej strony projekt dotyczy jednego z najistotniejszych bieżących wyzwań gospodarczych, tj. transformacją energetyczną
+i związaną z nią substytucją technologiczną na rynku wytwórców energii elektrycznej. Uzyskane wyniki mogą przyczynić
+się do lepszego zrozumienia mechanizmów wpływających na szybkość zmiany technologicznej i wpływu polityki klimatyczno-energetycznej
+na zachowanie podmiotów rynkowych i ewolucję struktury sektora energii elektrycznej. 
+
+Projekt stanowi próbę połączenia dwóch nurtów badawczych dotychczas rozwijanych w znacznym stopniu niezależnie: modeli substytucji
+technologicznej oraz dynamicznych modeli, opartych na teorii gier różniczkowych.
+
 
 ** DONE Krótki przegląd literatury (kluczowe pozycje na temat danego problemu badawczego ze wskazaniem luk, które kandydat zamierza wypełnić, to nie jest bibliografia)
 
@@ -369,8 +409,9 @@ wdrażania technologii nisko- i zeroemisyjnych.
 
 - Stworzenie bibliotek numerycznych do analizy jakościowej zmian technologicznych.
 
-Kolejnym oczekiwanym efektem praktycznym będzie stworzenie bibliotek numerycznych do analizy jakościowej zmian technologicznych.
-Oznacza to, że przy użyciu zautomatyzowanych narzędzi, jak np. równania HJB do wyznaczenia optymalnego sterowania czy automatycznie
+Kolejnym oczekiwanym rezultatem praktycznym będzie stworzenie bibliotek numerycznych do analizy jakościowej
+zmian technologicznych. Oznacza to, że przy użyciu zautomatyzowanych narzędzi, jak np. równania HJB do
+wyznaczenia optymalnego sterowania czy automatycznie
 tworzonych wykresów można będzie wskazać najbardziej i najmniej korzystne scenariusze oparte na politykach
-klimatyczno-energetycznych i strukturze rynku wytwórców energii elektrycznej. Biblioteki te zostaną np. stworzone przy użyciu
-języka programowania Rust lub w środowisku Wolfram Mathematica. 
+klimatyczno-energetycznych i strukturze rynku wytwórców energii elektrycznej. Biblioteki te zostaną np.
+stworzone przy użyciu języka programowania Rust lub w środowisku Wolfram Mathematica. 
