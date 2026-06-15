@@ -229,8 +229,9 @@ zmiany technologicznej)?
 
 - Specyfikacja i kalibracja modelu do gospodarki Polski.
 
-4. W jakim stopniu zaproponowany model odzwierciedla obserwowane procesy transformacji technologicznej w Polsce po jego kalibracji z wykorzystaniem
-danych odnośnie polskiego sektora elektroenergetycznego? 
+4. W jakim stopniu zaproponowany model odzwierciedla obserwowane procesy transformacji technologicznej w Polsce
+po jego kalibracji z wykorzystaniem danych odnośnie polskiego sektora elektroenergetycznego? W jaki sposób należy skalibrować parametry modelu ogólnego,
+aby dostosować go do specyfiki polskiego rynku wytwarzania energii elektrycznej?
 
 - Analiza scenariuszowa.
 
@@ -302,10 +303,10 @@ analizy funkcjonalnej (np. przestrzenie Banacha, słaba lub *-słaba topologia) 
 czy optimal stopping).
 
 
-Ponadto, zamierzam zautomatyzować algorytmy służące do numerycznego wyznaczania optymalnego sterowania. W ramach współpracy z planowanym promotorem, prof. Ramszą, napisałem
-algorytm do obliczania optymalnego sterowania w pętli sprzężenia zwrotnego przy pomocy równań HJB w środowisku Wolfram Mathematica (algorytm oparty na pracy Carlini i inni, 2004).
-Narzędzie może zostać przepisane za pomocą np. języka Rust i puszczane z poziomu R w celu usprawnienia szybkości przeliczania algorytmu.
-W zależności od potrzeb algorytmy te będą rozwijane i implementowane w innych językach programowania oraz dostosowywane do specyfiki analizowanych modeli.
+Ponadto, zamierzam zautomatyzować algorytmy służące do numerycznego wyznaczania optymalnego sterowania. W ramach dotychczasowej współpracy z prof. Ramszą opracowałem
+algorytm wyznaczania sterowań optymalnych oparty na równaniach HJB w środowisku Wolfram Mathematica. (algorytm oparty na pracy
+Carlini i inni, 2004). W zależności od potrzeb algorytmy te będą rozwijane i implementowane w innych językach programowania
+(np. w celu zoptymalizowania szybkości obliczeń) oraz dostosowywane do specyfiki analizowanych modeli.
 
 
 Bibliografia
@@ -318,11 +319,58 @@ Carlini,  E.,  Falcone,  M., & Ferretti,  R.  (2004). An Efficient Algorithm for
 
 _Wyniki teoretyczne_
 
-- Stworzenie ogólnego modelu zmiany technologicznej z uwzględniem strategicznych decyzji podmiotów rynkowych i struktury rynku. Twierdzenia o istnieniu optymalnego sterowania.
+- Stworzenie ogólnego modelu zmiany technologicznej z uwzględniem strategicznych decyzji podmiotów rynkowych i struktury rynku.
+Twierdzenia o istnieniu optymalnego sterowania.
+
+
+Oczekuję następujących wyników teoretycznych. 
+Po pierwsze, mam zamiar stworzyć ogólny model gry różniczkowej zmiany technologicznej
+z uwzględnieniem strategicznych decyzji podmiotów rynowych i struktury rynku wytwórców energii elektrycznej. Na podstawie
+tegoż modelu planuję planuję sformułować i udowodnić twierdzenia o istnieniu optymalnego sterowania dla poszczególnych graczy
+w danym scenariuszu oraz, jeśli to możliwe, o istnieniu równowagi gry.
+W wybranych przypadkach szczególnych zamierzam również przeanalizować własności jakościowe optymalnej ścieżki rozwiązań
+(ścieżki w rozumieniu pary uporządkowanej - sterowanie, trajektoria) takie jak ich (asymptotyczną) stabilność czy monotoniczność.
+Jeżeli będzie to możliwe, zostaną wyprowadzone postacie analityczne optymalnych strategii.
+
 - Specyfikacja ogólnego modelu, do modelu dla gospodarki Polskiej. Kalibracja modelu dla dostępnych danych. Analiza scenariuszowa.
 - Wnioski w zakresie tzw. zielonych polityk i regulacji rynku generacji energii elektrycznehj.
+
+Drugim oczekiwanym rezultatem badań będzie specyfikacja opracowanego ogólnego modelu gry różniczkowej do warunków polskiego rynku
+wytwórców energii elektrycznej. W tym celu przeprowadzona zostanie identyfikacja parametrów mających empiryczne odpowiedniki w
+rzeczywistości polskiej gospodarki (jak np. całkowity poziom opatkowania technologii konwencjonalnych czy parametrów
+opisujących ograniczenia regulacyjne). Zostanie też
+dokonana kalibracja parametrów modelu z wykorzystaniem dostępnych danych dotyczących m.in. struktury technologicznej sektora
+elektroenergetycznego, zainstalowanych mocy, kosztów technologicznych oraz różnych instrumentów polityki
+klimatyczno-energetycznej (np. EU ETS w przypadku technologii konwencjonalnych, system aukcyjny i kontrakty różnicowe dla OZE).
+Po przeprowadzeniu kalibracji model zostanie wykorzystany do analizy scenariuszowej. W ten sposób możliwa będzie ocena
+wpływu różnych wariantów polityki klimatyczno-energetycznej
+na m.in. szybkość substytucji technologicznej, ewolucję struktury rynku wytwórców energii oraz strategie jego uczestników.
+Dokładniej, będzie możliwe wysunięcie odpowiednich wniosków w zakresie tzw. zielonych polityk
+i instrumentów regulujących rynek generacji energii elektrycznej, to znaczy, czy np. zielone polityki takie jak system EU ETS
+czy systemy aukcyjne prowadzą do zwiększonego tempa zmiany technologicznej i w jaki sposób wpływają one na zyski podmiotów
+rynkowych oraz jak wpływają na ich decyzje. 
+
+Wyniki symulacji pozwolą na identyfikację czynników sprzyjających transformacji energetycznej w kontekście analizowanych
+scenariuszy oraz na ocenę jakościową długookresowych ścieżek rozwoju sektora elektroenergetycznego w Polsce. Symulacje
+pozwolą również na określenie najbardziej korzystnego scenariusza z pespektywy wytwórców energii elektrycznej.
+
 
 _Wyniki praktyczne_
 
 - Analiza rynku polskiego i Unii Europejskiej w zakresie zmiany technologicznej na rynku wytwórstwa energii elektrycznej.
+
+Oczekuję również uzyskania szeregu wyników praktycznych. Po pierwsze, przeprowadzona zostanie analiza procesów zmian technologicznych
+zachodzących na polskim i europejskim rynku wytwórców energii elektrycznej. Analiza ta pozwoli na identyfikację najważniejszych
+trendów strukturalnych i technologicznych, np. związanych ze wzrostem znaczenia OZE. Pozwoli ona również na określenie roli
+instrumentów polityki klimatyczno-energetycznej, takich jak system EU ETS czy mechanizmy wsparcia OZE, w procesie transformacji sektora
+elektroenergetycznego. Będzie można spozycjonować rynek polski na tle rynku UE w zakresie dynamiki zmian strukturalnych oraz efektywności
+wdrażania technologii nisko- i zeroemisyjnych.
+
+
 - Stworzenie bibliotek numerycznych do analizy jakościowej zmian technologicznych.
+
+Kolejnym oczekiwanym efektem praktycznym będzie stworzenie bibliotek numerycznych do analizy jakościowej zmian technologicznych.
+Oznacza to, że przy użyciu zautomatyzowanych narzędzi, jak np. równania HJB do wyznaczenia optymalnego sterowania czy automatycznie
+tworzonych wykresów można będzie wskazać najbardziej i najmniej korzystne scenariusze oparte na politykach
+klimatyczno-energetycznych i strukturze rynku wytwórców energii elektrycznej. Biblioteki te zostaną np. stworzone przy użyciu
+języka programowania Rust lub w środowisku Wolfram Mathematica. 
